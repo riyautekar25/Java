@@ -1,0 +1,37 @@
+Topic -  LinkedHashSet
+1. Duplicates are not allowed
+2. insertion order preserved
+3. HashTable and LinkedSet
+4. whatever methods available in HashSet supported for the LInkedHashSet
+
+Topic - Queue(I) : extends :=> 1. DQueue(I) 2. BlockingQueue(I) 3. BlockingDqueue(I)
+		           implemented by:=> 1. Priority queue 2. Linked list
+
+PriorityQueue properties:
+1. first in first out
+2. insertion order preserved
+3. duplicates are allowed
+4. Homogeneous data only allowed
+
+Map Interface
+1. Map(I) is not a child interface of collection, completely independent from collection
+2. implemented by: 1. HashMap(C) 2. HashTable(C) 
+3. map is always represented by key value pair
+4. duplicate keys are not allowed but values can be duplicated
+
+Properties of HashMap
+1. implemented by HashTable data structure
+2. insertion order not preserved
+3. duplicate keys are not allowed but values can be duplicated
+4. null key allowed only once (because key is always unique) but multiple null values allowed
+
+Difference between HashMap and HashTable
+HashMap: 1. Non Synchronized (Multiple threads allowed at a time)
+2. not thread safe
+3. performance faster 
+4. null key allowed only one time, values multiple times 
+
+HashTable: 1. Synchronized (one thread allowed at a time)
+2. thread safe
+3. performance poor
+4. nulls can not be allowed
